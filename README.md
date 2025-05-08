@@ -6,7 +6,7 @@ run the following commands in ur terminal
 
 ~~~
 cd ~/.config/micro
-git clone https://github.com/pragnyanramtha/github-dark-AMOLED-colour-theme-for-micro-editor.git ~~~
+git clone https://github.com/pragnyanramtha/github-dark-AMOLED-colour-theme-for-micro-editor.git
 ~~~
 
 open micro and press ctrl+e and run
@@ -15,4 +15,4 @@ open micro and press ctrl+e and run
 set colorscheme amoled-theme
 ~~~
 
-this should make ur termial look better
+this should make ur termial look better :)
