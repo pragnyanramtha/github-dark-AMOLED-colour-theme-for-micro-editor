@@ -1,0 +1,90 @@
+# Amoled Github theme for micro editor
+# Converted from JSON theme
+# Modified for Transparent Background
+# Current line highlight removed
+# Tab bar background explicitly set to dark
+
+# Default editor colors - Main background will be transparent
+color-link default "#e1e4e8"
+
+# Cursor line and line numbers
+#color-link cursor-line ""  # No specific background for the current line (transparent)
+color-link line-number "#737373"   # 626262 # Non-current line numbers still have their gutter background
+color-link current-line-number "bold #e1e4e8" # Current line number, bold text, transparent background
+
+# Selection - Retains its specific background
+color-link selection ",#a7a7ff44" # Note: includes alpha
+
+# Status line - Background will be transparent
+color-link statusline "#d1d5da"
+color-link statusline.inactive "#6a737d"
+# Statusline suggestions retain their specific background for pop-up clarity
+color-link statusline.suggestions "#e6edf3,#82bcff"
+
+# Tab bar - Setting a specific dark background to avoid white bar
+color-link tabbar "#959da5,#2b3036"
+color-link tabbar.active "bold #e1e4e8,#2b3036"
+
+# Core Syntax Elements - Backgrounds will be transparent
+color-link comment "#b392f0"
+color-link comment.bright "#b392f0"
+
+color-link identifier "#ffa657"
+color-link identifier.var "#ffa657"
+color-link identifier.class "#bc8cff"
+color-link identifier.macro "bold #ff7b72"
+
+color-link constant "#79b8ff"
+color-link constant.number "#5fff72"
+color-link constant.string "#a5d6ff"
+color-link constant.string.url "underline #a5d6ff"
+color-link constant.bool "#32ff99"
+color-link constant.bool.true "#32ff99"
+color-link constant.bool.false "#32ff99"
+color-link constant.specialChar "#ff7b72"
+
+color-link statement "bold #ff7b72"
+
+color-link symbol "#79b8ff"
+color-link symbol.brackets "#8b949e"
+color-link symbol.operator "#79b8ff"
+color-link symbol.tag "bold #7ee787"
+
+color-link preproc "bold #ff7b72"
+color-link preproc.shebang "bold #b392f0"
+
+color-link type "bold #79b8ff"
+color-link type.keyword "bold #ff7b72"
+
+color-link special "#ff7b72"
+
+color-link underlined "underline #9a83ff"
+
+# Error, Todo - Backgrounds will be transparent for text, error messages on statusline also transparent bg
+color-link error "#f97583"
+color-link error-message "#ffa198" # Shown on statusline (now transparent background)
+color-link todo "bold #d4afff"
+
+# Indent guides, Whitespace - Backgrounds will be transparent
+color-link indent-char "#444d56"
+
+# Gutters - Retain specific background color for the gutter area, same as line numbers
+color-link gutter-info "#80ff9e,#2b3036"
+color-link gutter-error "#ff828e,#2b3036"
+color-link gutter-warning "#79b8ff,#2b3036"
+
+# Diff colors - Retain their specific backgrounds
+color-link diff-added "#7ee787,#04260f"
+color-link diff-modified "#ffa657,#5a1e02"
+color-link diff-deleted "#ffa198,#490202"
+
+# Miscellaneous
+color-link color-column ",#58606915" # Retains specific background. Note: includes alpha
+color-link ignore "#6a737d" # Background transparent
+color-link scrollbar "#7d8590" # Foreground only for the scrollbar character
+color-link divider "#586069" # For the char separating splits, background transparent
+color-link message "#e1e4e8" # Shown on statusline (now transparent background)
+color-link match-brace "#46ff5f99,#17E5E650" # Retains specific background. Note: background includes alpha
+color-link hlsearch "#e1e4e8,#9aacff44" # Retains specific background. Note: background includes alpha
+color-link tab-error "#f97583" # Background transparent
+color-link trailingws "#ff7b72" # Background transparent
